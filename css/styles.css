@@ -15,6 +15,7 @@ button {
 body {
 font-family: "Roboto", sans-serif;
 color: #434455;
+background-color: #fff;
 }
 
 /* Logo */
@@ -73,8 +74,6 @@ color: #fff;
 
 .business {
 background: #2e2f42;
-width: 1440px;
-height: 600px;
 }
 
 .business-button {
