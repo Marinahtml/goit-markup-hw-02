@@ -63,6 +63,10 @@ background: #404bbf;
 
 
 /* Address */
+.contacts-block {
+font-style: normal
+}
+
 .contacts-text {
 font-weight: 400;
 font-size: 16px;
@@ -135,9 +139,15 @@ background: #f4f4fd;
 .team-title {
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
+text-transform: capitalize;
+color: #2e2f42;
+}
+
+.teal-list {
+background: #ffffff;
 }
 
 .teal-list-title {
@@ -189,27 +199,13 @@ color: #434455;
 
 
 /* Footer */
-.page-footer-part {
+.page-footer-item {
 font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4d5ae5;
-}
-
-.page-footer-item {
-font-family: "Raleway", sans-serif;
-font-weight: 700;
-font-size: 18px;
-line-height: 1.16667;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #f4f4fd;
-}
-
-.page-footer-part {
 color: #4d5ae5;
 }
 
